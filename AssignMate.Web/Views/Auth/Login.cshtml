@@ -1,0 +1,30 @@
+﻿@model AssignMate.Core.Models.UserLogin
+
+@{
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+    ViewData["Title"] = "Login";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success mb-3">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<h3 class="mb-4 text-center">Login</h3>
+<form method="post" asp-action="Login">
+    <div asp-validation-summary="All" class="text-danger mb-3"></div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" type="email" class="form-control" placeholder="Enter your email" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" />
+    </div>
+    <button type="submit" class="btn btn-primary w-100">Login</button>
+    <div class="mt-3 text-center">
+        <small>Don't have an account? <a href="/Register">Register</a></small>
+    </div>
+</form>

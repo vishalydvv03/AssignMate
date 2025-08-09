@@ -1,0 +1,17 @@
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\bin\Debug\net8.0\AssignMate.Services.deps.json
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\bin\Debug\net8.0\AssignMate.Services.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\bin\Debug\net8.0\AssignMate.Services.pdb
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMate.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMate.Services.AssemblyInfoInputs.cache
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMate.Services.AssemblyInfo.cs
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMate.Services.csproj.CoreCompileInputs.cache
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMate.Services.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\refint\AssignMate.Services.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMate.Services.pdb
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\ref\AssignMate.Services.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\bin\Debug\net8.0\AssignMate.Core.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\bin\Debug\net8.0\AssignMate.Data.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\bin\Debug\net8.0\AssignMate.Data.pdb
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\bin\Debug\net8.0\AssignMate.Core.pdb
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMate.Services.csproj.AssemblyReference.cache
+C:\Users\visha\source\repos\AssignMate\AssignMate.Services\obj\Debug\net8.0\AssignMa.2ADFEAF6.Up2Date

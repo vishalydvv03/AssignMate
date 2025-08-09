@@ -1,0 +1,11 @@
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\bin\Debug\net8.0\AssignMate.Core.deps.json
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\bin\Debug\net8.0\AssignMate.Core.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\bin\Debug\net8.0\AssignMate.Core.pdb
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.AssemblyInfoInputs.cache
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.AssemblyInfo.cs
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.csproj.CoreCompileInputs.cache
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\refint\AssignMate.Core.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.pdb
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\ref\AssignMate.Core.dll
