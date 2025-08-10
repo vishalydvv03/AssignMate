@@ -1,0 +1,43 @@
+﻿@model AssignMate.Core.Models.TaskCreate
+
+@{
+    ViewData["Title"] = "Create Task";
+    Layout = "_Layout";
+}
+
+<div class="container" style="max-width: 600px; margin-top: 40px;">
+    <h2 class="mb-4">Add New Task</h2>
+
+    <form asp-action="Create" method="post" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label"></label>
+            <input asp-for="Title" class="form-control" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Description" class="form-label"></label>
+            <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="DueDate" class="form-label"></label>
+            <input asp-for="DueDate" type="date" class="form-control" />
+            <span asp-validation-for="DueDate" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="AssignedUserIds" class="form-label">Assign To</label>
+            <select asp-for="AssignedUserIds" asp-items="ViewBag.Users" class="form-select" multiple size="3"></select>
+            <span asp-validation-for="AssignedUserIds" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary px-5">Add</button>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-secondary ms-3">Cancel</a>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

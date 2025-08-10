@@ -1,4 +1,5 @@
 ﻿using AssignMate.Core.Entities;
+using AssignMate.Core.Enums;
 using AssignMate.Core.Models;
 using AssignMate.Data;
 using Microsoft.AspNetCore.Identity;
@@ -53,6 +54,12 @@ namespace AssignMate.Services.UserServices
                 }
             }
             return false;
+        }
+
+        public async Task<List<User>> GetAllStudentsList()
+        {
+            var users = await context.Users.Where(u=>u.Role==UserRole.Student).ToListAsync();
+            return users;
         }
     }
 }

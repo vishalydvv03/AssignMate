@@ -61,9 +61,6 @@ namespace AssignMate.Data.Migrations
                     b.Property<bool>("IsCompleted")
                         .HasColumnType("bit");
 
-                    b.Property<int?>("TaskItemId")
-                        .HasColumnType("int");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(200)
@@ -72,8 +69,6 @@ namespace AssignMate.Data.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("CreatedByUserId");
-
-                    b.HasIndex("TaskItemId");
 
                     b.ToTable("Tasks");
                 });
@@ -140,17 +135,11 @@ namespace AssignMate.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("AssignMate.Core.Entities.TaskItem", null)
-                        .WithMany("CreatedTasks")
-                        .HasForeignKey("TaskItemId");
-
                     b.Navigation("CreatedByUser");
                 });
 
             modelBuilder.Entity("AssignMate.Core.Entities.TaskItem", b =>
                 {
-                    b.Navigation("CreatedTasks");
-
                     b.Navigation("TaskAssignments");
                 });
 

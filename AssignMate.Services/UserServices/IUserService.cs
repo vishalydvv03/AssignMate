@@ -1,4 +1,5 @@
-﻿using AssignMate.Core.Models;
+﻿using AssignMate.Core.Entities;
+using AssignMate.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,5 +12,6 @@ namespace AssignMate.Services.UserServices
     {
         Task<bool> RegisterUser(UserRegister dto);
         Task<bool> LoginUser(UserLogin dto);
+        Task<List<User>> GetAllStudentsList();
     }
 }

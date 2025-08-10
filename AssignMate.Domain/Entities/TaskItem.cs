@@ -26,7 +26,6 @@ namespace AssignMate.Core.Entities
 
         public bool IsCompleted { get; set; } = false;
 
-        public ICollection<TaskItem> CreatedTasks { get; set; } = new List<TaskItem>();
         public ICollection<TaskAssignment> TaskAssignments { get; set; } = new List<TaskAssignment>();
     }
 }

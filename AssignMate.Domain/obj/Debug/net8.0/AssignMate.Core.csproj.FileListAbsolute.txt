@@ -9,3 +9,4 @@ C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\Assign
 C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\refint\AssignMate.Core.dll
 C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.pdb
 C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\ref\AssignMate.Core.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Domain\obj\Debug\net8.0\AssignMate.Core.sourcelink.json

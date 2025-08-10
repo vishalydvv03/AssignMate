@@ -15,3 +15,4 @@ C:\Users\visha\source\repos\AssignMate\AssignMate.Data\obj\Debug\net8.0\refint\A
 C:\Users\visha\source\repos\AssignMate\AssignMate.Data\obj\Debug\net8.0\AssignMate.Data.pdb
 C:\Users\visha\source\repos\AssignMate\AssignMate.Data\obj\Debug\net8.0\AssignMate.Data.genruntimeconfig.cache
 C:\Users\visha\source\repos\AssignMate\AssignMate.Data\obj\Debug\net8.0\ref\AssignMate.Data.dll
+C:\Users\visha\source\repos\AssignMate\AssignMate.Data\obj\Debug\net8.0\AssignMate.Data.sourcelink.json

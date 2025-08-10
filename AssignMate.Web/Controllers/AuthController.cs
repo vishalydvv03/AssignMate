@@ -33,7 +33,7 @@ namespace AssignMate.Web.Controllers
                 ModelState.AddModelError(string.Empty, "Invalid email or password.");
                 return View(dto);
             }
-            return View();
+            return RedirectToAction("Index", "Home");
         }
 
         [HttpGet("Register")]
