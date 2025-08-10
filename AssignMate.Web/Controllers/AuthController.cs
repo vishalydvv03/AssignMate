@@ -71,5 +71,6 @@ namespace AssignMate.Web.Controllers
             Response.Cookies.Delete("jwtToken");
             return RedirectToAction("Login", "Auth");
         }
+
     }
 }

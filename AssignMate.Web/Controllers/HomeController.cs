@@ -9,7 +9,11 @@ namespace AssignMate.Web.Controllers
         [Route("")]
         public IActionResult Index()
         {
-            return View();
+            if (User.IsInRole("Teacher"))
+            {
+                return View("TeacherDashboard");
+            }
+            return RedirectToAction("Login","Auth");  
         }
     }
 }
