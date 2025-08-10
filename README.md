@@ -8,7 +8,7 @@ It enables teachers to efficiently assign tasks to students, track deadlines, an
 ## 🎯 Key Highlights
 
 - Built with **ASP.NET Core MVC** and **Entity Framework Core**
-- **Modern, responsive UI** with Bootstrap 5
+- **Modern UI** with Bootstrap 5
 - **Role-based Access Control** (Teacher / Student)
 - **JWT Authentication** for secure access
 - **Multi-user Task Assignment**
@@ -19,7 +19,6 @@ It enables teachers to efficiently assign tasks to students, track deadlines, an
 ## 🖼 UI & UX
 
 - **Clean and minimal interface**
-- **Responsive design** for mobile and desktop
 - Easy navigation for both teachers and students
 
 > _Screenshots_
@@ -48,18 +47,13 @@ It enables teachers to efficiently assign tasks to students, track deadlines, an
    - Set deadlines
    - Edit or delete existing tasks
 
-2. **Student Login**
-   - View all assigned tasks
-   - See deadlines clearly
-   - Stay updated with task changes
-
 ---
 
 ## 🚀 Getting Started
 
 1. Clone the repository
 2. Update `appsettings.json` with your database credentials
-3. Run EF Core migrations
+3. Run Sql Script in SQL Server 
 4. Launch the app and log in
 
 ---
@@ -71,6 +65,15 @@ It enables teachers to efficiently assign tasks to students, track deadlines, an
 - Small teams for internal task delegation
 
 ---
+
+## 🤝 Contributing
+
+1. Fork the project
+2. Create a feature branch (`git checkout -b feature-name`)
+3. Commit your changes (`git commit -m 'Add feature'`)
+4. Push to branch (`git push origin feature-name`)
+5. Create a Pull Request
+
 
 ## 📜 License
 
