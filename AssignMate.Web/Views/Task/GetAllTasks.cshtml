@@ -1,0 +1,34 @@
+﻿@model List<AssignMate.Core.Models.ReadTask>
+@{
+    ViewData["Title"] = "Tasks List";
+}
+
+<h2 class="mb-4">@ViewData["Title"]</h2>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Title</th>
+                <th>Assigned Date</th>
+                <th>Due Date</th>
+                <th>Assigned To</th>
+                <th style="width: 150px;">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var task in Model)
+            {
+                <tr>
+                    <td>@task.Title</td>
+                    <td>@task.AssignedDate.ToString("yyyy-MM-dd")</td>
+                    <td>@task.DueDate.ToString("yyyy-MM-dd")</td>
+                    <td>@string.Join(", ", task.AssignedTo)</td>
+                    <td>
+                        <a asp-controller="Task" asp-action="GetTaskById" asp-route-id="@task.Id" class="btn btn-sm btn-info">Details</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

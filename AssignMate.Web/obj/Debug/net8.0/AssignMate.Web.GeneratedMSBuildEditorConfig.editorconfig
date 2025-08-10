@@ -52,6 +52,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/visha/source/repos/AssignMate/AssignMate.Web/Views/Task/EditTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xFZGl0VGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/visha/source/repos/AssignMate/AssignMate.Web/Views/Task/GetAllTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xHZXRBbGxUYXNrcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/visha/source/repos/AssignMate/AssignMate.Web/Views/Task/GetTaskById.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xHZXRUYXNrQnlJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/visha/source/repos/AssignMate/AssignMate.Web/Views/User/EditUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxFZGl0VXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/visha/source/repos/AssignMate/AssignMate.Web/Views/User/GetUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxHZXRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/visha/source/repos/AssignMate/AssignMate.Web/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -10,5 +10,10 @@ namespace AssignMate.Services.TaskServices
     public interface ITaskService
     {
         Task<bool> AddTask(TaskCreate dto);
+        Task<IEnumerable<ReadTask>> GetAllTasks();
+        Task<ReadTask?> GetTaskById(int id);
+        Task<TaskEdit?> GetTaskByIdForEdit(int id);
+        Task<bool> UpdateTask(TaskEdit dto);
+        Task<bool> DeleteTask(int id);
     }
 }

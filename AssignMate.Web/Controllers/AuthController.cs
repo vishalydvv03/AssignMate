@@ -27,12 +27,18 @@ namespace AssignMate.Web.Controllers
             {
                 return View(dto);
             }
-            var result = await userService.LoginUser(dto);
-            if(result == false)
+            var token = await userService.LoginUser(dto);
+            if(string.IsNullOrWhiteSpace(token))
             {
                 ModelState.AddModelError(string.Empty, "Invalid email or password.");
                 return View(dto);
             }
+            Response.Cookies.Append("jwtToken", token, new CookieOptions
+            {
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.Strict
+            });
             return RedirectToAction("Index", "Home");
         }
 
@@ -57,6 +63,13 @@ namespace AssignMate.Web.Controllers
             }
             TempData["SuccessMessage"] = "Registration successful! Please login.";
             return RedirectToAction("Login");
+        }
+
+        [HttpGet("Logout")]
+        public IActionResult Logout()
+        {
+            Response.Cookies.Delete("jwtToken");
+            return RedirectToAction("Login", "Auth");
         }
     }
 }
