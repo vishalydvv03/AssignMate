@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AssignMate.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5ee69fd2bd11f64d72a0d61d78fad8bd276097d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+188d6d48488a387d4463804bd29314e8d1b52711")]
 [assembly: System.Reflection.AssemblyProductAttribute("AssignMate.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AssignMate.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
